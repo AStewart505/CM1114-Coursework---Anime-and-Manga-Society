@@ -1,0 +1,168 @@
+
+img{
+    width: 576;height: 288;
+    border-radius:5px;
+}
+
+#Logo{
+    height: 50px;
+    width:50px;
+    float: left;
+    margin-right: 10px;
+}
+
+body{
+    background-color:#87CEEB ;
+}
+
+header{
+    background-color:#F7FD3C;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-style: solid; 
+    border-width: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+main{
+    border-radius:15px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #FFFF;
+    margin: 5px;
+}
+
+nav{
+    font-family:monospace;
+    font-size: 25px;
+    margin: 5px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family:monospace;
+    font-size: 15px;
+}
+
+h1{
+    font-size:40px;
+    display: inline;
+}
+
+h3{
+    font-size: 25px;
+}
+
+aside{
+    border-radius: 5px;
+    border-style: inset;
+    border-width: 5px;
+    background-color: #FFFF;
+    border-color: #000;
+    margin: 5px;
+}
+
+footer{
+    background-color:#696969;
+    color: #FFFF;
+    border-radius: 5px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: #000;
+    margin: 5px;
+}
+
+nav ul{
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+nav li{
+    background-color:#f7d412;
+    list-style-type:none;
+    border-width: 2px;
+    border-style:solid;
+    border: color #000;;
+    text-decoration: none;
+    float: left;
+    width:15%;
+    padding: 16px;
+    float:left;
+    list-style-type: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+Nav li:hover{
+    background-color: #000000;
+}
+
+.active{
+    background-color:#f7d412;
+}
+
+
+table{
+    background-color:#696969 ;
+    font-family:monospace;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 2px;
+    color: #F2F2F2;
+    border-radius:10px;
+    border-spacing:20px;
+
+}
+
+table td, table th{
+    border-width: 2px;
+    border-style: solid;
+    background-color: #424141;
+}
+
+Table tr:nth-child(even){
+    background-color: #F0F0F0;
+}
+
+Table th, Table tr:hover{
+    background-color:#87CEEB ;
+}
+
+Table th{
+    background-color:#87CEEB;
+    color: #F0F0F0;
+}
+
+th, td{
+    padding:5px;
+}
+
+
+/*
+.column{
+    float:left;
+    width:50%;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+
+
+#Left-Col{
+    float:left;
+}
+
+#Right-Col{
+    float:right;
+}
+*/
